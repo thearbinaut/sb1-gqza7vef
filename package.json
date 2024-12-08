@@ -1,0 +1,34 @@
+{
+  "name": "bitcoin-address-analyzer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "analyze": "node src/cli.js analyze",
+    "test": "vitest",
+    "dev": "node --watch src/cli.js"
+  },
+  "dependencies": {
+    "@bitcoinerlab/secp256k1": "^1.0.5",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "hdkey": "^2.1.0",
+    "axios": "^1.6.2",
+    "winston": "^3.11.0",
+    "node-cache": "^5.1.2",
+    "p-limit": "^4.0.0",
+    "better-sqlite3": "^8.7.0",
+    "@tensorflow/tfjs": "^4.14.0",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "commander": "^11.1.0",
+    "ecpair": "^2.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

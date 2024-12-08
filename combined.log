@@ -1,0 +1,7 @@
+{"batchSize":100,"count":100,"level":"info","message":"Starting address analysis","startIndex":0,"timestamp":"2024-12-08T16:24:37.269Z"}
+{"batchCount":100,"batchStart":0,"level":"debug","message":"Processing batch 1/1","timestamp":"2024-12-08T16:24:37.306Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Batch address derivation failed","timestamp":"2024-12-08T16:24:37.360Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Address derivation failed","timestamp":"2024-12-08T16:24:37.364Z"}
+{"count":100,"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Batch analysis failed","startIndex":0,"timestamp":"2024-12-08T16:24:37.380Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Analysis failed","timestamp":"2024-12-08T16:24:37.382Z"}
+{"error":{"code":"ERR_INVALID_ARG_TYPE"},"level":"error","message":"Analysis error","timestamp":"2024-12-08T16:24:37.415Z"}
